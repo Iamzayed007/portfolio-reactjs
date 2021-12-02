@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "JavaScript",
+        "img": ""
+    },
+    {
+        "id": "2",
+        "name": "ReactJs",
+        "img": ""
+    },
+    {
+        "id": "3",
+        "name": "NodeJs",
+        "img": ""
+    },
+    {
+        "id": "4",
+        "name": "ExpressJs",
+        "img": ""
+    },
+    {
+        "id": "5",
+        "name": "ES6",
+        "img": ""
+    },
+    {
+        "id": "6",
+        "name": "MySQL",
+        "img": ""
+    },
+    {
+        "id": "7",
+        "name": "MongoDB",
+        "img": ""
+    },
+    {
+        "id": "8",
+        "name": "Heroku",
+        "img": ""
+    },
+    {
+        "id": "9",
+        "name": "Netlify",
+        "img": ""
+    },
+    {
+        "id": "10",
+        "name": "Firebase",
+        "img": ""
+    }
+]

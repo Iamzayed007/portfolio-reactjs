@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "name": "Medi care",
+        "description": "011111"
+    },
+    {
+        "id": "2",
+        "name": "Book Shop",
+        "description": "011111"
+    },
+    {
+        "id": "3",
+        "name": "DPMS",
+        "description": "011111"
+    },
+    {
+        "id": "4",
+        "name": "Teacher's welfare",
+        "description": "011111"
+    },
+    {
+        "id": "5",
+        "name": "Post",
+        "description": "011111"
+    }
+]
