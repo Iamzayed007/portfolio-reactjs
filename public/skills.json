@@ -17,36 +17,36 @@
     {
         "id": "4",
         "name": "ExpressJs",
-        "img": ""
+        "img": "./image/skills/express.svg"
     },
     {
         "id": "5",
         "name": "ES6",
-        "img": ""
+        "img": "./image/skills"
     },
     {
         "id": "6",
         "name": "MySQL",
-        "img": ""
+        "img": "./image/skills"
     },
     {
         "id": "7",
         "name": "MongoDB",
-        "img": ""
+        "img": "./image/skills"
     },
     {
         "id": "8",
         "name": "Heroku",
-        "img": ""
+        "img": "./image/skills"
     },
     {
         "id": "9",
         "name": "Netlify",
-        "img": ""
+        "img": "./image/skills"
     },
     {
         "id": "10",
         "name": "Firebase",
-        "img": ""
+        "img": "./image/skills"
     }
 ]

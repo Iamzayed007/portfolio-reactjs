@@ -8,12 +8,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import BgParticles from './components/BgParticles/BgParticles';
 
 function App() {
   return (
     <div className="bg-green-100" >
       <Router>
         <Header></Header>
+
+        <BgParticles/>
         <Switch>
           <Route exact path="/">
             <Home />
