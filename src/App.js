@@ -10,6 +10,12 @@ import {
 } from "react-router-dom";
 import BgParticles from './components/BgParticles/BgParticles';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
+
 function App() {
   return (
     <div className="bg-green-100" >

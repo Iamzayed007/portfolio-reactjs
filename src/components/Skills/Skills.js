@@ -22,9 +22,13 @@ const Skills = () => {
         <div id="skills" className="relative lg:text-white top-44" >
             {/* <h1 className="text-6xl text-center">Skills</h1> */}
             {/* <img style={imgStyle} src={img} alt="" /> */}
+ 
+      {/* Frontend */}
 
-
-            <div class=" py-14">
+            <div class=" py-14"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            >
     <h1 class="mt-8 text-center text-5xl text-green-600 font-bold">Skills</h1>
     <h3 class="text-2xl tracking-widest mt-10 text-purple-900  text-center ">Front End</h3>
 
@@ -48,7 +52,10 @@ const Skills = () => {
   
 {/* Backend */}
 
-<div class=" py-10">
+<div class=" py-10"
+data-aos="fade-right"
+data-aos-duration="3000"
+>
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900 ">Back End</h3>
 
     {/* <!-- Box --> */}
@@ -68,14 +75,20 @@ const Skills = () => {
     </div>
   </div>
   {/* hostingPlatforms */}
-            <div class=" py-10">
+            <div class=" py-10"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            >
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Hosting Flatform</h3>
 
     {/* <!-- Box --> */}
     <div class="md:flex md:justify-center md:space-x-8 md:px-14">
 
       {/* <!-- box-1 --> */}
-      <div className="lg:grid lg:grid-cols-4 lg:gap-4">   
+      <div className="lg:grid lg:grid-cols-4 lg:gap-4"
+      data-aos="zoom-out"
+      data-aos-duration="3000"
+      >   
      {
          SkillsData.hostingPlatforms.map((skill,index)=> <SingleSkill
          key={index}
@@ -93,7 +106,10 @@ const Skills = () => {
 
 
   {/* programmingLanguages */}
-            <div class=" py-10">
+            <div class=" py-10"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            >
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Programming Language</h3>
 
     {/* <!-- Box --> */}
@@ -114,7 +130,10 @@ const Skills = () => {
   </div>
 
   {/* databases */}
-            <div class=" py-10">
+            <div class=" py-10"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+            >
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Database</h3>
 
     {/* <!-- Box --> */}
@@ -134,7 +153,10 @@ const Skills = () => {
     </div>
   </div>
   {/* versionControl */}
-            <div class=" py-10">
+            <div class=" py-10"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            >
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Version Control</h3>
 
     {/* <!-- Box --> */}
@@ -165,7 +187,10 @@ const {skillName,imgSrc}=props.skill
         <div>
 
 <div class="mt-16 py-2 px-4 bg-whit w-36 h-52 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
-        <div class="w-sm ">
+        <div class="w-sm "
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        >
           <img class="w-36 h-32" src={imgSrc} alt="" />
           <div class="mt-4 text-green-600 text-center">
             <h1 class="text-xl  font-bold">{skillName}</h1>
