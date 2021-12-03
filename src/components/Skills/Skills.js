@@ -24,7 +24,7 @@ const Skills = () => {
             {/* <img style={imgStyle} src={img} alt="" /> */}
 
 
-            <div class="bg-green-100 py-14">
+            <div class=" py-14">
     <h1 class="mt-8 text-center text-5xl text-green-600 font-bold">Skills</h1>
     <h3 class="text-2xl tracking-widest mt-10 text-purple-900  text-center ">Front End</h3>
 
@@ -48,7 +48,7 @@ const Skills = () => {
   
 {/* Backend */}
 
-<div class="bg-green-100 py-10">
+<div class=" py-10">
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900 ">Back End</h3>
 
     {/* <!-- Box --> */}
@@ -68,7 +68,7 @@ const Skills = () => {
     </div>
   </div>
   {/* hostingPlatforms */}
-            <div class="bg-green-100 py-10">
+            <div class=" py-10">
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Hosting Flatform</h3>
 
     {/* <!-- Box --> */}
@@ -93,7 +93,7 @@ const Skills = () => {
 
 
   {/* programmingLanguages */}
-            <div class="bg-green-100 py-10">
+            <div class=" py-10">
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Programming Language</h3>
 
     {/* <!-- Box --> */}
@@ -114,7 +114,7 @@ const Skills = () => {
   </div>
 
   {/* databases */}
-            <div class="bg-green-100 py-10">
+            <div class=" py-10">
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Database</h3>
 
     {/* <!-- Box --> */}
@@ -134,7 +134,7 @@ const Skills = () => {
     </div>
   </div>
   {/* versionControl */}
-            <div class="bg-green-100 py-10">
+            <div class=" py-10">
     <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Version Control</h3>
 
     {/* <!-- Box --> */}

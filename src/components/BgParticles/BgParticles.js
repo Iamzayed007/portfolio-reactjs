@@ -16,11 +16,7 @@ const BgParticles = () => {
           init={particlesInit}
           loaded={particlesLoaded}
           options={{
-            background: {
-              color: {
-                value: "#0d47a1",
-              },
-            },
+            
             fpsLimit: 60,
             interactivity: {
               events: {
@@ -36,8 +32,8 @@ const BgParticles = () => {
               },
               modes: {
                 bubble: {
-                  distance: 400,
-                  duration: 2,
+                  distance: 500,
+                  duration: 4,
                   opacity: 0.8,
                   size: 40,
                 },
@@ -52,10 +48,10 @@ const BgParticles = () => {
             },
             particles: {
               color: {
-                value: "#ffffff",
+                value: "#fffffff",
               },
               links: {
-                color: "#ffffff",
+                color: "#000000",
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
@@ -69,7 +65,7 @@ const BgParticles = () => {
                 enable: true,
                 outMode: "bounce",
                 random: false,
-                speed: 6,
+                speed: 2,
                 straight: false,
               },
               number: {
@@ -77,7 +73,7 @@ const BgParticles = () => {
                   enable: true,
                   value_area: 800,
                 },
-                value: 80,
+                value: 100,
               },
               opacity: {
                 value: 0.5,

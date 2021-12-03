@@ -13,11 +13,11 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact" className="relative bg-green-100 lg:text-white top-52 h-72">
+        <div id="contact" className="relative  lg:text-white top-52 h-72">
             <h1 className="text-6xl text-green-600 text-center py-4">Contact</h1>
             {/* <img style={imgStyle} src={img} alt="" /> */}
 
-            <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12" style={{backgroundImage: "url('https://picsum.photos/id/1018/1000')"}} >
+            <div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12"  >
             {/* style="background-image: url('https://picsum.photos/id/1018/1000')" */}
   <div class="relative py-3 sm:max-w-xl sm:mx-auto">
     <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200" style={{backdropFilter:"blur(20px)"}}>

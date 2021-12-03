@@ -18,7 +18,7 @@ const Projects = () => {
             {/* <img style={imgStyle} src={img} alt="" /> */}
 
 
-            <div class="bg-green-100 py-14">
+            <div class=" py-14">
     {/* <h3 class="text-2xl tracking-widest text-green-600 text-center">FEATURES</h3> */}
     <h1 class="mt-8 text-center text-5xl text-green-600 font-bold">Projects</h1>
 
