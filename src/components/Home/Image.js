@@ -2,14 +2,12 @@ import React from 'react';
 import mypic from '../image/zayed.png'
 import Typewriter from 'typewriter-effect';
 import { HashLink } from 'react-router-hash-link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressBook,  } from '@fortawesome/free-solid-svg-icons'
+
 import { Icon } from 'react-icons-kit'
 import {githubSquare} from 'react-icons-kit/fa/githubSquare'
 import {linkedinSquare} from 'react-icons-kit/fa/linkedinSquare'
-const github = <FontAwesomeIcon icon={['fab','github-square']} />
-const linkedin = <FontAwesomeIcon icon={['fab','linkedin']} />
-const contact = <FontAwesomeIcon icon={faAddressBook} />
+import {addressBook} from 'react-icons-kit/fa/addressBook'
+
 
 const Image = () => {
     return (
@@ -37,9 +35,9 @@ const Image = () => {
             data-aos="fade-right"
             data-aos-duration="3000"
             >
-         <a target="_blank" href="https://github.com/Iamzayed007"   class="mt-2 mr-2  mb-4 py-2 px-6 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"><Icon size={32} icon={githubSquare} /></a>
-         <a target="_blank" href="https://www.linkedin.com/in/iamzayed/"   class="mt-2 mr-2  mb-4 py-2 px-6 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"><Icon size={32} icon={linkedinSquare} /></a>
-         <HashLink to="/#contact"  class="mt-2  mb-4 py-2 px-6 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">{contact} </HashLink>
+         <a target="_blank" href="https://github.com/Iamzayed007"   class="mt-2 mr-2  mb-4 py-2 px-3 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"><Icon size={32} icon={githubSquare} /></a>
+         <a target="_blank" href="https://www.linkedin.com/in/iamzayed/"   class="mt-2 mr-2  mb-4 py-2 px-3 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"><Icon size={32} icon={linkedinSquare} /></a>
+         <HashLink to="/#contact"  class="mt-2  mb-4 py-2 px-3 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"><Icon size={32} icon={addressBook} /> </HashLink>
 
             </div>
 

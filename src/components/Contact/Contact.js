@@ -1,7 +1,16 @@
 import React from 'react';
-import img from '../image/photo-1598760122223-45f0f18a1bbd.jpeg'
+import emailjs from "emailjs-com";
 const Contact = () => {
-
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm('service_yp173kn','template_dp7boo8', e.target, 'user_AMYYXFcT38ODNwzeNMA2r')
+    .then((result) => {
+    console.log(result.text);
+    }, (error) => {
+    console.log(error.text);
+    });
+    e.target.reset()
+    }
 
     return (
         <div id="contact" className="relative   top-40 py-24 ">
@@ -25,52 +34,28 @@ const Contact = () => {
         <div class="divide-y divide-gray-200">
           <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
             <p className="mb-16 ">Email: zayedhasan3.1416@gmail.com</p>
-            {/* <ul class=" space-y-2">
-              <li class="flex items-start">
-              
-                
-                  
-                  <input type="text" placeholder="Name"
-                  className="w-full h-10 border-gray-900 bg-green-300 rounded-lg"
-
-                  />
-               
-              </li>
-              <li class="flex items-start">
-                
-              <input type="text" placeholder="Name"
-                  className="w-full h-10 border-gray-900 bg-green-300 rounded-lg"
-
-                  />
-              </li>
-              <li class="flex items-start">
-               
-              <input type="text" placeholder="Name"
-                  className="w-full h-10 border-gray-900 bg-green-300 rounded-lg"
-
-                  />              </li>
-            </ul> */}
-            <form action=""
+           
+            <form onSubmit={sendEmail}
             className="space-y-4"
             >
-            <input type="text" placeholder="Name"
+            <input name="name" type="text" placeholder="Name"
                   className="w-full h-10 border-gray-900 bg-green-100 rounded-lg"
 
                   />   
-            <input type="text" placeholder="Email"
+            <input name="email" type="text" placeholder="Email"
                   className="w-full h-10 border-gray-900 bg-green-100 rounded-lg"
 
                   />   
-            <input type="text" placeholder="Subject"
+            <input name="subject" type="text" placeholder="Subject"
                   className="w-full h-10 border-gray-900 bg-green-100 rounded-lg"
 
                   />   
-            <textarea type="text" placeholder="Message"
-                  className="w-full h-36 border-gray-900 bg-green-100 rounded-lg"
+            <textarea  name="message" type="text" placeholder="Message"
+                  className="w-full h-36 border-gray-900 bg-green-100 rounded-lg" 
 
                   />  
                   
-                  <button class="mt-8 mb-4 py-1 px-6 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">Submit</button>
+                  <button type="submit" class="mt-8 mb-4 py-1 px-6 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">Submit</button>
  
             </form>
             
