@@ -12,6 +12,7 @@ import BgParticles from './components/BgParticles/BgParticles';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Footer from './components/Footer/Footer';
 // ..
 AOS.init();
 
@@ -40,6 +41,7 @@ function App() {
             <Home />
           </Route> */}
         </Switch>
+        <Footer/>
       </Router>
 
     </div>

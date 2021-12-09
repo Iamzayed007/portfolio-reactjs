@@ -8,35 +8,35 @@ const Skills = () => {
     //     .then(res=>res.json())
     //     .then(data=>setSkills(data))
     // },[])
-    const imgStyle = {
-        position: "absolute",
-        width: "100%",
-        height: "100%",
-        left: "50%",
-        top: "50%",
-        objectFit: "cover",
-        transform: "translate(-50%,-50%)",
-        zIndex: "-1"
-    }
+    // const imgStyle = {
+    //     position: "absolute",
+    //     width: "100%",
+    //     height: "100%",
+    //     left: "50%",
+    //     top: "50%",
+    //     objectFit: "cover",
+    //     transform: "translate(-50%,-50%)",
+    //     zIndex: "-1"
+    // }
     return (
-        <div id="skills" className="relative lg:text-white top-44" >
+        <div id="skills" className="relative lg:text-white top-44 " >
             {/* <h1 className="text-6xl text-center">Skills</h1> */}
             {/* <img style={imgStyle} src={img} alt="" /> */}
  
       {/* Frontend */}
 
-            <div class=" py-14"
+            <div class=" py-14 "
             data-aos="fade-right"
             data-aos-duration="3000"
             >
     <h1 class="mt-8 text-center text-5xl text-green-600 font-bold">Skills</h1>
     <h3 class="text-2xl tracking-widest mt-10 text-purple-900  text-center ">Front End</h3>
 
-    {/* <!-- Box --> */}
-    <div class="md:flex md:justify-center md:space-x-8 md:px-14">
+   
+    <div class="md:flex md:justify-center md:space-x-8 md:px-14  ">
 
-      {/* <!-- box-1 --> */}
-      <div className="lg:grid lg:grid-cols-4 lg:gap-4">   
+     
+      <div className="lg:grid lg:grid-cols-5 lg:gap-4 ">   
      {
          SkillsData.frontend.map((skill,index)=> <SingleSkill
          key={index}
@@ -56,7 +56,7 @@ const Skills = () => {
 data-aos="fade-right"
 data-aos-duration="3000"
 >
-    <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900 ">Back End</h3>
+    <h3 class="text-2xl tracking-widest text-center text-purple-900 ">Back End</h3>
 
     {/* <!-- Box --> */}
     <div class="md:flex md:justify-center md:space-x-8 md:px-14">
@@ -79,7 +79,7 @@ data-aos-duration="3000"
             data-aos="fade-left"
             data-aos-duration="3000"
             >
-    <h3 class="text-2xl tracking-widest text-green-600 text-center text-purple-900">Hosting Flatform</h3>
+    <h3 class="text-2xl tracking-widest  text-center text-purple-900">Hosting Flatform</h3>
 
     {/* <!-- Box --> */}
     <div class="md:flex md:justify-center md:space-x-8 md:px-14">
@@ -186,7 +186,7 @@ const {skillName,imgSrc}=props.skill
     return(
         <div>
 
-<div class="mt-16 py-2 px-4 bg-whit w-36 h-52 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
+<div class=" mt-16 py-2 px-4  w-36 h-52 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
         <div class="w-sm "
         data-aos="zoom-in"
         data-aos-duration="3000"

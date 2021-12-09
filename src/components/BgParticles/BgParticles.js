@@ -65,7 +65,7 @@ const BgParticles = () => {
                 enable: true,
                 outMode: "bounce",
                 random: false,
-                speed: 2,
+                speed: 1,
                 straight: false,
               },
               number: {
@@ -86,6 +86,7 @@ const BgParticles = () => {
                 value: 5,
               },
             },
+           
             detectRetina: true,
           }}
         />
