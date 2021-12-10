@@ -7,6 +7,8 @@ import L_REDUX from "../../assets/image/skills/redux.svg";
 import L_REACT_ROUTER from "../../assets/image/skills/react-router.svg";
 import L_MATERIALUI from "../../assets/image/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/image/skills/react-bootstrap.svg";
+import tailwind from "../../assets/image/skills/tailwind.png";
+import netlify from "../../assets/image/skills/netlify.jpg";
 
 import L_NODE_JS from "../../assets/image/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/image/skills/express.svg";
@@ -15,7 +17,7 @@ import L_Laravel from "../../assets/image/skills/monitor.svg";
 import L_Firebase from "../../assets/image/skills/file-type-firebase.svg";
 import L_PHP from "../../assets/image/skills/php.svg";
 import L_MONGODB from "../../assets/image/skills/mongodb.svg";
-import L_MSSQL from "../../assets/image/skills/mssql.svg";
+import L_MYSQL from "../../assets/image/skills/mysql.png";
 import L_GIT from "../../assets/image/skills/git-icon.svg";
 import L_HEROKU from "../../assets/image/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/image/skills/github.svg";
@@ -60,6 +62,12 @@ export const SkillsData =  {
           imgAltText: "React Router",
           imgSrc: L_REACT_ROUTER,
           skillName: "React Router",
+        },
+        {
+          link: "https://tailwindcss.com/",
+          imgAltText: "Tailwind CSS",
+          imgSrc: tailwind,
+          skillName: "Tailwind CSS",
         },
         {
           link: "https://material-ui.com/",
@@ -123,6 +131,12 @@ export const SkillsData =  {
           imgSrc: L_Firebase,
           skillName: "Firebase",
         },
+        {
+          link: "https://pages.github.com/",
+          imgAltText: "Netlify",
+          imgSrc: netlify,
+          skillName: "Netlify",
+        },
       ],
       programmingLanguages: [
         {
@@ -144,7 +158,7 @@ export const SkillsData =  {
         {
           link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
           imgAltText: "MS-SQL",
-          imgSrc: L_MSSQL,
+          imgSrc: L_MYSQL,
           skillName: "My SQL",
         },
         {

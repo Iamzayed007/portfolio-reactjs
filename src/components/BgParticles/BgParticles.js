@@ -11,6 +11,9 @@ const BgParticles = () => {
         console.log(container);
       };
       return (
+        <div className="w-full">
+
+       
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -90,6 +93,8 @@ const BgParticles = () => {
             detectRetina: true,
           }}
         />
+
+</div>
       );
 };
 

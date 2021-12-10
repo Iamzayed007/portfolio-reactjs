@@ -31,7 +31,7 @@ const Image = () => {
                     src={mypic} alt="" />
             </div>
 
-            <div className=" relative flex justify-center mt-6 w-96 ml-16 lg:ml-0 lg:justify-start lg:left-32  lg:top-32  "
+            <div className=" relative flex justify-center mt-6 lg:w-96  lg:ml-0 lg:justify-start lg:left-32  lg:top-32  "
             data-aos="fade-right"
             data-aos-duration="3000"
             >
@@ -50,7 +50,7 @@ const TypeWriter=()=>{
     return(
         <Typewriter
   options={{
-    strings: ['Web Developer', 'Frontend Developer','MERN Stack Developer'],
+    strings: ['Web Developer', 'Frontend Developer','MERN Developer'],
     autoStart: true,
     loop: true,
   }}

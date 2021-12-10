@@ -100,14 +100,14 @@ const Projects = () => {
                  
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto text-green-700">
+                <div className="relative p-6 flex-auto text-green-900">
                   <ul className="mt-4 text-blueGray-500 text-lg leading-relaxed">
                   <li>Easy online booking system</li>
                           <li>This project user can Book Their desire tour by booking procedure</li>
                           <li>Respoisive Design</li>
                   </ul>
                 </div>
-                <div className="relative p-6 flex-auto text-green-700">
+                <div className="relative p-6 flex-auto text-green-900">
                   <h4 className="text-2xl">Tech Used</h4>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-2">
                   <ul className="my-4 text-blueGray-500 text-lg leading-relaxed">
@@ -158,14 +158,14 @@ const Projects = () => {
                  
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto text-green-700">
+                <div className="relative p-6 flex-auto text-green-900">
                   <ul className="mt-4 text-blueGray-500 text-lg leading-relaxed">
                           <li>Select your desire car and buy it online</li>
                           <li>Real-time complete website</li>
                           <li>Styled with react-bootstrap</li>
                   </ul>
                 </div>
-                <div className="relative p-6 flex-auto text-green-700">
+                <div className="relative p-6 flex-auto text-green-900">
                   <h4 className="text-2xl">Tech Used</h4>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-2">
                   <ul className="my-4 text-blueGray-500 text-lg leading-relaxed">
@@ -216,14 +216,14 @@ const Projects = () => {
                  
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto text-green-700">
+                <div className="relative p-6 flex-auto text-green-900">
                   <ul className="mt-4 text-blueGray-500 text-lg leading-relaxed">
                           <li>Medi Care Hospital system is created for giving medical services to all users.</li>
                           <li>Real-time complete website</li>
                           <li>Styled with bootstrap</li>
                   </ul>
                 </div>
-                <div className="relative p-6 flex-auto text-green-700">
+                <div className="relative p-6 flex-auto text-green-900">
                   <h4 className="text-2xl">Tech Used</h4>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-2">
                   <ul className="my-4 text-blueGray-500 text-lg leading-relaxed">

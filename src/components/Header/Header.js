@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Header.css'
 import { HashLink } from 'react-router-hash-link';
+import { Icon } from 'react-icons-kit'
+import {alignJustify} from 'react-icons-kit/fa/alignJustify'
 
 const Header = () => {
     const [show, setShow] = useState()
@@ -33,13 +35,13 @@ const Header = () => {
                 <button
                     onClick={() => setShow(!show)}
                 >
-                    Menu
+                   <Icon size={32} icon={alignJustify} />
                 </button>
             </div>
 
             {
                 show &&
-                <div className=" z-10 text-white  flex flex-col adsolute bg-white  ">
+                <div className=" z-10 text-white  flex flex-col adsolute bg-white pb-6  ">
                     <div className="ml-10  mt-4 lg:mr-4 text-lg " >
                         <HashLink to="/" className="text-green-600  hover:text-green-900" >Home</HashLink>
 

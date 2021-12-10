@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div className="flex justify-center  ">
                
-                <a target="_blank" href='/' class="mt-8 mb-4 py-2 px-10 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">My Resume</a>
+                <a target="_blank" href='https://drive.google.com/file/d/1qbb-oeDm1ujeNPwPx11fz_Ixww9ruX2r/view' class="mt-8 mb-4 py-2 px-10 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">My Resume</a>
 
             </div>
             <div>
