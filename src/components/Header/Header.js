@@ -41,7 +41,7 @@ const Header = () => {
 
             {
                 show &&
-                <div className=" z-10 text-white  flex flex-col adsolute bg-white pb-6  ">
+                <div className=" z-10 text-white  flex flex-col adsolute bg-white pb-6 lg:hidden ">
                     <div className="ml-10  mt-4 lg:mr-4 text-lg " >
                         <HashLink to="/" className="text-green-600  hover:text-green-900" >Home</HashLink>
 

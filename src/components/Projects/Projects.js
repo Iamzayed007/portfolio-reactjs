@@ -25,7 +25,7 @@ const Projects = () => {
       {/* <!-- box-1 --> */}
       <div class="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0"
        data-aos="fade-up-right"
-       data-aos-duration="3000"
+       data-aos-duration="2000"
       >
         <div class="w-sm">
           <img class="object-cover h-48 w-64" src={travel} alt="" />
@@ -46,7 +46,7 @@ const Projects = () => {
       {/* <!-- box-2 --> */}
       <div class="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0"
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
       >
         <div class="w-sm">
           <img class="object-cover h-48 w-64" src={car} alt="" />
@@ -66,8 +66,8 @@ const Projects = () => {
 
       {/* <!-- box-3 --> */}
       <div class="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0"
-          data-aos="fade-up-left"
-          data-aos-duration="3000"
+          data-aos="fade-up-right"
+          data-aos-duration="2000"
       >
         <div class="w-sm">
           <img class="object-cover h-48 w-64" src={medicare} alt="" />
