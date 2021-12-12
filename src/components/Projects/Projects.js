@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../image/photo-1587833823162-763b9eab0f74.jpeg'
 import travel from '../../assets/image/projects/travel.jpeg'
 import car from '../../assets/image/projects/car.jpeg'
 import medicare from '../../assets/image/projects/medicare.jpeg'
@@ -28,17 +27,32 @@ const Projects = () => {
        data-aos-duration="2000"
       >
         <div class="w-sm">
-          <img class="object-cover h-48 w-64" src={travel} alt="" />
-          <div class="mt-4 text-green-600 text-center">
+          <img class="object-cover h-48 w-64" src={travel} alt=""
+           data-aos="zoom-in"
+           data-aos-duration="2000"
+          />
+          <div class="mt-4 text-green-900 text-center">
             <h1 class="text-xl font-bold">Traventur</h1>
-            <p class="mt-4 text-gray-600">An online Traventure- (A tour guide) booking app. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
+            <p class="mt-4 text-gray-900">An online Traventure- (A tour guide) booking app. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
            <div className="flex" >
 
-           <a target="_blank" href="https://traveler-duo.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200">Live Server</a>
-            <a target="_blank" href="https://github.com/Iamzayed007/Travel-Client-Site-ReactJs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200">Client Site</a>
-            <a target="_blank" href="https://github.com/Iamzayed007/Travel-Server-Site-" class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200">Server Site</a>
+           <a target="_blank" href="https://traveler-duo.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+            data-aos="fade-right"
+             data-aos-duration="2000"
+           >Live Server</a>
+            <a target="_blank" href="https://github.com/Iamzayed007/Travel-Client-Site-ReactJs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+             data-aos="fade-right"
+             data-aos-duration="2000"
+            >Client Site</a>
+            <a target="_blank" href="https://github.com/Iamzayed007/Travel-Server-Site-" class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200"
+             data-aos="fade-right"
+             data-aos-duration="2000"
+            >Server Site</a>
            </div>
-            <button  onClick={() => setShowModal1(true)} class="mt-8 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">MORE</button>
+            <button  onClick={() => setShowModal1(true)} class="mt-8 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            >MORE</button>
           </div>
         </div>
       </div>
@@ -49,17 +63,32 @@ const Projects = () => {
           data-aos-duration="2000"
       >
         <div class="w-sm">
-          <img class="object-cover h-48 w-64" src={car} alt="" />
-          <div class="mt-4 text-green-600 text-center">
+          <img class="object-cover h-48 w-64" src={car} alt="" 
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          />
+          <div class="mt-4 text-green-900 text-center">
             <h1 class="text-xl font-bold">Car</h1>
-            <p class="mt-4 text-gray-600">An online Car Gallery buying website. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
+            <p class="mt-4 text-gray-900">An online Car Gallery buying website. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
             <div className="flex" >
 
-            <a target="_blank" href="https://wheels-59842.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200">Live Server</a>
-            <a target="_blank" href="https://github.com/Iamzayed007/car-client-site-reactjs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200">Client Site</a>
-            <a target="_blank" href="https://github.com/Iamzayed007/car-server-site-expressJs" class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200">Server Site</a>
+            <a target="_blank" href="https://wheels-59842.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+             data-aos="fade-right"
+             data-aos-duration="2000"
+            >Live Server</a>
+            <a target="_blank" href="https://github.com/Iamzayed007/car-client-site-reactjs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+             data-aos="fade-right"
+             data-aos-duration="2000"
+            >Client Site</a>
+            <a target="_blank" href="https://github.com/Iamzayed007/car-server-site-expressJs" class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200"
+             data-aos="fade-right"
+             data-aos-duration="2000"
+            >Server Site</a>
 </div>
-            <button  onClick={() => setShowModal2(true)} class="mt-12 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">MORE</button>
+            <button  onClick={() => setShowModal2(true)} class="mt-12 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            >MORE</button>
           </div>
         </div>
       </div>
@@ -70,16 +99,28 @@ const Projects = () => {
           data-aos-duration="2000"
       >
         <div class="w-sm">
-          <img class="object-cover h-48 w-64" src={medicare} alt="" />
-          <div class="mt-4 text-green-600 text-center">
+          <img class="object-cover h-48 w-64" src={medicare} alt=""
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          />
+          <div class="mt-4 text-green-900 text-center">
             <h1 class="text-xl font-bold">Medi Care</h1>
-            <p class="mt-4 text-gray-600">A Hospital Management system for a software limited. Developed by ReactJS, Bootstrap, Firebase </p>
+            <p class="mt-4 text-gray-900">A Hospital Management system for a software limited. Developed by ReactJS, Bootstrap, Firebase </p>
             <div className="flex" >
 
-            <a target="_blank" href="https://medi-care-14bc7.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200">Live Server</a>
-            <a target="_blank" href="https://github.com/Iamzayed007/hospital-clientsite-reactJs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200">Client Site</a>
+            <a target="_blank" href="https://medi-care-14bc7.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+             data-aos="fade-right"
+             data-aos-duration="2000"
+            >Live Server</a>
+            <a target="_blank" href="https://github.com/Iamzayed007/hospital-clientsite-reactJs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+             data-aos="fade-right"
+             data-aos-duration="2000"
+            >Client Site</a>
 </div>
-            <button  onClick={() => setShowModal3(true)} class="mt-16 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">MORE</button>
+            <button  onClick={() => setShowModal3(true)} class="mt-16 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"
+             data-aos="fade-up"
+             data-aos-duration="2000"
+            >MORE</button>
           </div>
         </div>
       </div>

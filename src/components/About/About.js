@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div id="about" className="relative  lg:text-green-600 top-44 "
         data-aos="zoom-in"
-     data-aos-duration="3000"
+     data-aos-duration="2000"
         >
             <h1 className="text-6xl  text-center my-10 ">About</h1>
             <div className="flex justify-center  ">

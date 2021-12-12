@@ -5,14 +5,14 @@ import Home from './components/Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import BgParticles from './components/BgParticles/BgParticles';
+import Footer from './components/Footer/Footer';
 
+// AOS animation
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-import Footer from './components/Footer/Footer';
 // ..
 AOS.init();
 

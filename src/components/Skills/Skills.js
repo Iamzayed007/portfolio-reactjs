@@ -1,23 +1,7 @@
-import React,{useState,useEffect} from 'react';
-import img from '../image/photo-1520916784675-1b97f1fc1c05.jpeg'
+import React from 'react';
 import {SkillsData} from './SkillsData'
 const Skills = () => { 
-    // const [skills,setSkills]=useState([])
-    // useEffect(()=>{
-    //     fetch('./skills.json')
-    //     .then(res=>res.json())
-    //     .then(data=>setSkills(data))
-    // },[])
-    // const imgStyle = {
-    //     position: "absolute",
-    //     width: "100%",
-    //     height: "100%",
-    //     left: "50%",
-    //     top: "50%",
-    //     objectFit: "cover",
-    //     transform: "translate(-50%,-50%)",
-    //     zIndex: "-1"
-    // }
+ 
     return (
         <div id="skills" className="relative lg:text-white top-44 max-w-full " >
             {/* <h1 className="text-6xl text-center">Skills</h1> */}
@@ -184,12 +168,17 @@ const {skillName,imgSrc}=props.skill
 
 <div class=" mt-16 py-2 px-4  w-36 h-52 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
         <div class="w-sm "
-        data-aos="zoom-in"
-        data-aos-duration="2000"
+     
         >
-          <img class="w-36 h-32" src={imgSrc} alt="" />
+          <img class="w-36 h-32" src={imgSrc} alt="" 
+             data-aos="zoom-in"
+             data-aos-duration="2000"
+          />
           <div class="mt-4 text-green-600 text-center">
-            <h1 class="text-xl  font-bold">{skillName}</h1>
+            <h1 class="text-xl  font-bold"
+             data-aos="zoom-out"
+             data-aos-duration="2000"
+            >{skillName}</h1>
           </div>
         </div>
       </div>

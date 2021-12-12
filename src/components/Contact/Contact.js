@@ -21,8 +21,9 @@ const Contact = () => {
             {/* style="background-image: url('https://picsum.photos/id/1018/1000')" */}
   <div class="relative py-3 sm:max-w-xl sm:mx-auto">
     <div class="relative px-20 py-1 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200" 
-      data-aos="zoom-out"
-      data-aos-duration="3000"
+     style={{backdropFilter: "blur(20px)"}}
+     data-aos="zoom-out"
+      data-aos-duration="2000"
     >
     {/* style="backdrop-filter: blur(20px);" */}
       <div class="max-w-md mx-auto">
@@ -61,7 +62,10 @@ const Contact = () => {
             
                   
                          </div>
-          <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
+          <div class="pt-6 text-base  leading-6 font-bold sm:text-lg sm:leading-7"
+           data-aos="fade-up"
+           data-aos-duration="2000"
+          >
             <p>See me on <a target="_blank" class="font-bold text-blue-700" href="https://www.linkedin.com/in/iamzayed/"> LinkedIn </a>
             <a target="_blank" class="font-bold text-blue-700" href="https://github.com/Iamzayed007"> Github </a>
             </p>

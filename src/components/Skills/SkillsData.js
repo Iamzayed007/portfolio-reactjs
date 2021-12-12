@@ -15,7 +15,6 @@ import L_EXPRESS from "../../assets/image/skills/express.svg";
 import L_Laravel from "../../assets/image/skills/monitor.svg";
 
 import L_Firebase from "../../assets/image/skills/file-type-firebase.svg";
-import L_PHP from "../../assets/image/skills/php.svg";
 import L_MONGODB from "../../assets/image/skills/mongodb.svg";
 import L_MYSQL from "../../assets/image/skills/mysql.png";
 import L_GIT from "../../assets/image/skills/git-icon.svg";
