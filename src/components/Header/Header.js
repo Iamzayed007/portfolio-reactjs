@@ -18,15 +18,15 @@ const Header = () => {
 
                 </div>
                 <div className="ml-10  mt-4 mr-4 text-2xl">
-                    <HashLink to="#skills" className="hover:text-green-600" >Skills</HashLink>
+                    <HashLink to="/#skills" className="hover:text-green-600" >Skills</HashLink>
 
                 </div>
                 <div className="ml-10  mt-4 mr-4 text-3xl">
-                    <HashLink to="#projects" className="hover:text-green-600" >Projects</HashLink>
+                    <HashLink to="/#projects" className="hover:text-green-600" >Projects</HashLink>
 
                 </div>
                 <div className="ml-10  mt-4 mr-4 text-2xl">
-                    <HashLink to="#contact" className="hover:text-green-600" >Contact</HashLink>
+                    <HashLink to="/#contact" className="hover:text-green-600" >Contact</HashLink>
 
                 </div>
             </div>

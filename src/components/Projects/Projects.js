@@ -2,6 +2,7 @@ import React from 'react';
 import travel from '../../assets/image/projects/travel.jpeg'
 import car from '../../assets/image/projects/car.jpeg'
 import medicare from '../../assets/image/projects/medicare.jpeg'
+import { Link } from 'react-router-dom';
 const Projects = () => {
 
   const [showModal1, setShowModal1] = React.useState(false);
@@ -298,7 +299,17 @@ const Projects = () => {
         </>
       ) : null}
     </div>
+
+   
+
+
+
   </div>
+  <div className="flex justify-center  ">
+               
+               <Link  to="/moreProjects" class="mt-8 mb-4 py-2 px-10 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">View More Projects</Link>
+
+           </div>
         </div>
     );
 };

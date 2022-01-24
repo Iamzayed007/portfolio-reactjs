@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer';
 // AOS animation
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import AllProjects from './components/AllProjects/AllProjects';
 // ..
 AOS.init();
 
@@ -28,18 +29,23 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          
           {/* <Route exact path="/#about">
             <Home />
           </Route>
-          <Route exact path="/skills">
+          <Route exact path="/#projects">
             <Home />
           </Route>
-          <Route exact path="/projects">
+          <Route exact path="/#skills">
             <Home />
           </Route>
-          <Route exact path="/contact">
+         
+          <Route exact path="/#contact">
             <Home />
           </Route> */}
+          <Route  path="/moreProjects">
+            <AllProjects />
+          </Route>
         </Switch>
         <Footer/>
       </Router>
