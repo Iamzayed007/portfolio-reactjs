@@ -2,13 +2,13 @@ import React from 'react';
 import Particles from "react-tsparticles";
 const BgParticles = () => {
     const particlesInit = (main) => {
-        console.log(main);
+        // console.log(main);
     
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
       };
     
       const particlesLoaded = (container) => {
-        console.log(container);
+        // console.log(container);
       };
       return (
         <div className="w-full">
@@ -35,10 +35,10 @@ const BgParticles = () => {
               },
               modes: {
                 bubble: {
-                  distance: 500,
-                  duration: 4,
-                  opacity: 0.8,
-                  size: 40,
+                  distance: 900,
+                  duration: 8,
+                  opacity: 0.6,
+                  size: 20,
                 },
                 push: {
                   quantity: 4,
@@ -68,7 +68,7 @@ const BgParticles = () => {
                 enable: true,
                 outMode: "bounce",
                 random: false,
-                speed: 1,
+                speed: 2,
                 straight: false,
               },
               number: {

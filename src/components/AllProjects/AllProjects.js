@@ -41,12 +41,12 @@ return(
     <>
     <div class="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0"
                         data-aos="fade-up-right"
-                        data-aos-duration="2000"
+                        data-aos-duration="1000"
                     >
                         <div class="w-sm">
                             {img &&<img class="object-cover h-48 w-64" src={img} alt=""
                                 data-aos="zoom-in"
-                                data-aos-duration="2000"
+                                data-aos-duration="1000"
                             />}
                             <div class="mt-4 text-green-900 text-center">
                                 <h1 class="text-xl font-bold">{name}</h1>
@@ -55,15 +55,15 @@ return(
 {liveSite &&
                                     <a target="_blank" href={liveSite} class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
                                         data-aos="fade-right"
-                                        data-aos-duration="2000"
+                                        data-aos-duration="1000"
                                     >Live Server</a>}
                                 { clientSite &&   <a target="_blank" href={clientSite} class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
                                         data-aos="fade-right"
-                                        data-aos-duration="2000"
+                                        data-aos-duration="1000"
                                     >Client Site</a>}
                                   {serverSite &&  <a target="_blank" href={serverSite} class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200"
                                         data-aos="fade-right"
-                                        data-aos-duration="2000"
+                                        data-aos-duration="1000"
                                     >Server Site</a>}
                                 </div>
                                 <button onClick={() => setShowModal(true)} class="mt-8 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"

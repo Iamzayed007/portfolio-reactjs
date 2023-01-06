@@ -24,7 +24,7 @@ function App() {
       <Router>
         <Header></Header>
 
-        <BgParticles/>
+        {/* <BgParticles/> */}
         <Switch>
           <Route exact path="/">
             <Home />

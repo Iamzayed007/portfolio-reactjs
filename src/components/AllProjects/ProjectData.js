@@ -2,11 +2,34 @@ import travel from '../../assets/image/projects/travel.jpeg'
 import medi from '../../assets/image/projects/medicare.jpeg'
 import car from '../../assets/image/projects/car.jpeg'
 import hero from '../../assets/image/projects/herojs.jpeg'
+import bike from '../../assets/image/projects/bike.jpeg'
+import chat from '../../assets/image/projects/chat.png'
+
 
 
 export const allProjects={
 
     mern:[
+        {
+            name: "Bike Store",
+            img:bike,
+            description:"An online Bike Store buying website. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.",
+            features:[
+                "This project is developed by ReactJs,Firebase and Bootstrap5",
+
+"                In this project user can Book Their desire bike by booking procedure" ,               
+"                Before Booking bike user must have to Login with their Gmail account",
+                
+"                User(if Customer) login, user can see a dashboard which has Pay, Review, Myorder option and there has also admin panel if admin login , in dashboard Manage all order, Manage bike, Make Admin, Add a New bike. From bike option user can select bike and purchase it by clicking it",
+                
+                "admin can also Manage All bike and can delete or can approve the pending status of a adding a new bike and user has my bike option where user can delete the bike if needed",
+            ],
+            techUsed1:["HTML5","CSS3","Bootstrap5","MongoDB","Firebase"],
+            techUsed2:["React Js","Node Js","Express Js","Heroku"],
+            clientSite:"https://github.com/Iamzayed007/bike-store-react-js-client-site-",
+            serverSite:"https://github.com/Iamzayed007/bike-server-site-nodejs-expressjs",
+            liveSite:"https://bike-3c52c.web.app/",
+        },
         {
             name: "Traventur",
             img:travel,
@@ -62,7 +85,25 @@ export const allProjects={
             serverSite:"",
             liveSite:"https://vibrant-aryabhata-163df8.netlify.app/",
         },
+        {
+            name: "Chat Application",
+            img:chat,
+            description:"A A  full Realtime Chat Application with Social Auth and dedicated chat APIs/sockets, Developed by ReactJS,Firebase, HTML5, CSS3",
+            features:[
+                "A  full Realtime Chat Application with Social Auth and dedicated chat APIs/sockets.",
+                "Real-time Chat Application",
+                "Styled with CSS3"
+            ],
+            techUsed1:["HTML5","CSS3"],
+            techUsed2:["React Js","Firebase"],
+            clientSite:"https://github.com/Iamzayed007/chat-box-reactjs",
+            serverSite:"",
+            liveSite:"https://chat-cd4d6.web.app/chats",
+        },
       
+    ],
+    laravel:[
+
     ]
 }
 

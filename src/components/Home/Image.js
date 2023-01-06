@@ -15,7 +15,7 @@ const Image = () => {
             <div className="relative flex justify-center lg:absolute lg:top-60  lg:justify-start lg:left-40 ">
                 <h1  className="text-2xl text-green-600 lg:text-6xl  text-center mb-10 "
                 data-aos="fade-up"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 >
                     {/* Hi, This is <br /> <br /> */}
                     <span className="text-green-900 font-bold"> Md. Zayed Hasan</span> <br/> <br/>
@@ -24,7 +24,7 @@ const Image = () => {
             </div>
             <div className=" relative flex justify-center lg:justify-end lg:right-52  lg:top-32  "
             data-aos="fade-down"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             >
                 <img
                     className="w-52 lg:w-72 hover:shadow-xl transform  hover:scale-110 transition duration-500 mx-auto md:mx-0 "
@@ -33,7 +33,7 @@ const Image = () => {
 
             <div className=" relative flex justify-center mt-6 w-full lg:w-96  lg:ml-0 lg:justify-start lg:left-32  lg:top-32  "
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             >
          <a target="_blank" href="https://github.com/Iamzayed007"   class="mt-2 mr-2  mb-4 py-2 px-3 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"><Icon size={32} icon={githubSquare} /></a>
          <a target="_blank" href="https://www.linkedin.com/in/iamzayed/"   class="mt-2 mr-2  mb-4 py-2 px-3 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"><Icon size={32} icon={linkedinSquare} /></a>
@@ -50,7 +50,7 @@ const TypeWriter=()=>{
     return(
         <Typewriter
   options={{
-    strings: ['Web Developer', 'Frontend Developer','MERN Developer'],
+    strings: ['Software Engineer','Web Developer', 'Frontend Developer','MERN Developer'],
     autoStart: true,
     loop: true,
   }}

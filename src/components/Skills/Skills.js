@@ -11,7 +11,7 @@ const Skills = () => {
 
             <div class=" py-14 "
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             >
     <h1 class="mt-8 text-center text-5xl text-green-600 font-bold">Skills</h1>
     <h3 class="text-2xl tracking-widest mt-10 text-purple-900  text-center ">Front End</h3>
@@ -38,7 +38,7 @@ const Skills = () => {
 
           <div class=" py-10"
           data-aos="fade-right"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           >
               <h3 class="text-2xl tracking-widest text-center text-purple-900 ">Back End</h3>
 
@@ -61,7 +61,7 @@ const Skills = () => {
   {/* hostingPlatforms */}
                         <div class=" py-10"
                         data-aos="fade-right"
-                        data-aos-duration="2000"
+                        data-aos-duration="1000"
                         >
                 <h3 class="text-2xl tracking-widest  text-center text-purple-900">Hosting Flatform</h3>
 
@@ -89,7 +89,7 @@ const Skills = () => {
   {/* programmingLanguages */}
                   <div class=" py-10"
                   data-aos="fade-right"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                   >
           <h3 class="text-2xl tracking-widest  text-center text-purple-900">Programming Language</h3>
 
@@ -113,7 +113,7 @@ const Skills = () => {
   {/* databases */}
                       <div class=" py-10"
                       data-aos="fade-down"
-                      data-aos-duration="2000"
+                      data-aos-duration="1000"
                       >
               <h3 class="text-2xl tracking-widest  text-center text-purple-900">Database</h3>
 
@@ -136,7 +136,7 @@ const Skills = () => {
   {/* versionControl */}
             <div class=" py-10"
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             >
     <h3 class="text-2xl tracking-widest text-center text-purple-900">Version Control</h3>
 
@@ -172,12 +172,12 @@ const {skillName,imgSrc}=props.skill
         >
           <img class="w-36 h-32" src={imgSrc} alt="" 
              data-aos="zoom-in"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
           />
           <div class="mt-4 text-green-600 text-center">
             <h1 class="text-xl  font-bold"
              data-aos="zoom-out"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >{skillName}</h1>
           </div>
         </div>

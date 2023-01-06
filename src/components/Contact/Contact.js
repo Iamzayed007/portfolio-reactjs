@@ -23,7 +23,7 @@ const Contact = () => {
     <div class="relative px-20 py-1 bg-white shadow-lg sm:rounded-3xl sm:p-20 bg-clip-padding bg-opacity-60 border border-gray-200" 
      style={{backdropFilter: "blur(20px)"}}
      data-aos="zoom-out"
-      data-aos-duration="2000"
+      data-aos-duration="1000"
     >
     {/* style="backdrop-filter: blur(20px);" */}
       <div class="max-w-md mx-auto">
@@ -64,7 +64,7 @@ const Contact = () => {
                          </div>
           <div class="pt-6 text-base  leading-6 font-bold sm:text-lg sm:leading-7"
            data-aos="fade-up"
-           data-aos-duration="2000"
+           data-aos-duration="1000"
           >
             <p>See me on <a target="_blank" class="font-bold text-blue-700" href="https://www.linkedin.com/in/iamzayed/"> LinkedIn </a>
             <a target="_blank" class="font-bold text-blue-700" href="https://github.com/Iamzayed007"> Github </a>
