@@ -20,7 +20,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className="bg-green-100" >
+    <div className="bg-custom" >
       <Router>
         <Header></Header>
 
@@ -29,25 +29,12 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          
-          {/* <Route exact path="/#about">
-            <Home />
-          </Route>
-          <Route exact path="/#projects">
-            <Home />
-          </Route>
-          <Route exact path="/#skills">
-            <Home />
-          </Route>
-         
-          <Route exact path="/#contact">
-            <Home />
-          </Route> */}
+
           <Route  path="/moreProjects">
             <AllProjects />
           </Route>
         </Switch>
-        <Footer/>
+        <Footer></Footer>
       </Router>
 
     </div>

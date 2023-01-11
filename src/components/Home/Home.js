@@ -5,11 +5,12 @@ import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Image from './Image';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
 
     return (
-        <div>
+        <div className='bg-custom'>
             {/* <BgVideo /> */}
             {/* <BgParticles/> */}
             <Image />
@@ -17,6 +18,7 @@ const Home = () => {
             <Skills />
             <Projects />
             <Contact />
+            {/* <Footer/> */}
         </div >
     );
 };

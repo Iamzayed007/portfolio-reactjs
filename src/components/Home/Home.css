@@ -1,0 +1,17 @@
+.bannerContent{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    /* clip-path: circle(180vh at 50% -80vh); */
+    clip-path: ellipse(110vh 110vh at 10% 20%);;
+    /* opacity: .5; */
+    background-color: transparent;
+}
+.bannerContent div{
+    opacity: 1 !important;
+
+}

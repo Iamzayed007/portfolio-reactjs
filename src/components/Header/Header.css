@@ -1,1 +1,4 @@
-nav{}
+.headerContent{
+    
+    clip-path: ellipse(110vh 110vh at 10% 20%);
+}

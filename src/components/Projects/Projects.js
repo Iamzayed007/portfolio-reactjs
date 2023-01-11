@@ -10,7 +10,7 @@ const Projects = () => {
   const [showModal3, setShowModal3] = React.useState(false);
  
     return (
-        <div id="projects" className="relative lg:text-white top-44 ">
+        <div id="projects" className="relative z-50 lg:text-white top-44 ">
             {/* <h1 className="text-6xl text-center">Projects
             </h1> */}
             {/* <img style={imgStyle} src={img} alt="" /> */}
@@ -18,41 +18,41 @@ const Projects = () => {
 
             <div class=" py-14">
     {/* <h3 class="text-2xl tracking-widest text-green-600 text-center">FEATURES</h3> */}
-    <h1 class="mt-8 text-center text-5xl text-green-600 font-bold">Projects</h1>
+    <h1 class="mt-8 text-center text-6xl uppercase text-white font-bold">Projects</h1>
 
     {/* <!-- Box --> */}
     <div class="md:flex md:justify-center md:space-x-8 md:px-14">
       {/* <!-- box-1 --> */}
       <div class="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0"
        data-aos="fade-up-right"
-       data-aos-duration="2000"
+       data-aos-duration="1000"
       >
         <div class="w-sm">
           <img class="object-cover h-48 w-64" src={travel} alt=""
            data-aos="zoom-in"
-           data-aos-duration="2000"
+           data-aos-duration="1000"
           />
-          <div class="mt-4 text-green-900 text-center">
-            <h1 class="text-xl font-bold">Traventur</h1>
-            <p class="mt-4 text-gray-900">An online Traventure- (A tour guide) booking app. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
+          <div class="mt-4 text-buttonColor text-center">
+            <h1 class="text-xl font-bold uppercase">Traventur</h1>
+            <p class="mt-4 text-buttonColor">An online Traventure- (A tour guide) booking app. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
            <div className="flex" >
 
            <a target="_blank" href="https://traveler-duo.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
             data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
            >Live Server</a>
             <a target="_blank" href="https://github.com/Iamzayed007/Travel-Client-Site-ReactJs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
              data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >Client Site</a>
             <a target="_blank" href="https://github.com/Iamzayed007/Travel-Server-Site-" class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200"
              data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >Server Site</a>
            </div>
-            <button  onClick={() => setShowModal1(true)} class="mt-8 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"
+            <button  onClick={() => setShowModal1(true)} class="mt-8 mb-4 py-2 px-14 rounded-full bg-buttonColor text-white tracking-widest  transition duration-200"
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             >MORE</button>
           </div>
         </div>
@@ -61,34 +61,34 @@ const Projects = () => {
       {/* <!-- box-2 --> */}
       <div class="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0"
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
       >
         <div class="w-sm">
           <img class="object-cover h-48 w-64" src={car} alt="" 
             data-aos="zoom-in"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           />
-          <div class="mt-4 text-green-900 text-center">
-            <h1 class="text-xl font-bold">Car</h1>
-            <p class="mt-4 text-gray-900">An online Car Gallery buying website. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
+          <div class="mt-4 text-buttonColor text-center">
+            <h1 class="text-xl font-bold uppercase">Car</h1>
+            <p class="mt-4 text-buttonColor">An online Car Gallery buying website. Developed by ReactJS, Bootstrap, Mongodb, NodeJS, Express JS, Firebase, Heroku.</p>
             <div className="flex" >
 
             <a target="_blank" href="https://wheels-59842.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
              data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >Live Server</a>
             <a target="_blank" href="https://github.com/Iamzayed007/car-client-site-reactjs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
              data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >Client Site</a>
             <a target="_blank" href="https://github.com/Iamzayed007/car-server-site-expressJs" class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200"
              data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >Server Site</a>
 </div>
-            <button  onClick={() => setShowModal2(true)} class="mt-12 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"
+            <button  onClick={() => setShowModal2(true)} class="mt-12 mb-4 py-2 px-14 rounded-full bg-buttonColor text-white tracking-widest  transition duration-200"
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             >MORE</button>
           </div>
         </div>
@@ -97,30 +97,30 @@ const Projects = () => {
       {/* <!-- box-3 --> */}
       <div class="mt-16 py-4 px-4 bg-whit w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0"
           data-aos="fade-up-right"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
       >
         <div class="w-sm">
           <img class="object-cover h-48 w-64" src={medicare} alt=""
             data-aos="zoom-in"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           />
-          <div class="mt-4 text-green-900 text-center">
-            <h1 class="text-xl font-bold">Medi Care</h1>
-            <p class="mt-4 text-gray-900">A Hospital Management system for a software limited. Developed by ReactJS, Bootstrap, Firebase </p>
+          <div class="mt-4 text-buttonColor text-center">
+            <h1 class="text-xl font-bold uppercase">Medi Care</h1>
+            <p class="mt-4 text-buttonColor">A Hospital Management system for a software limited. Developed by ReactJS, Bootstrap, Firebase </p>
             <div className="flex" >
 
             <a target="_blank" href="https://medi-care-14bc7.web.app/" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
              data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >Live Server</a>
             <a target="_blank" href="https://github.com/Iamzayed007/hospital-clientsite-reactJs" class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
              data-aos="fade-right"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >Client Site</a>
 </div>
-            <button  onClick={() => setShowModal3(true)} class="mt-16 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"
+            <button  onClick={() => setShowModal3(true)} class="mt-16 mb-4 py-2 px-14 rounded-full bg-buttonColor text-white tracking-widest  transition duration-200"
              data-aos="fade-up"
-             data-aos-duration="2000"
+             data-aos-duration="1000"
             >MORE</button>
           </div>
         </div>
@@ -136,21 +136,21 @@ const Projects = () => {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h3 className="text-3xl text-green-900 font-semibold">
+                  <h3 className="text-3xl text-buttonColor font-semibold uppercase">
                     Feature
                   </h3>
                  
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto text-green-900">
+                <div className="relative p-6 flex-auto text-buttonColor">
                   <ul className="mt-4 text-blueGray-500 text-lg leading-relaxed">
                   <li>Easy online booking system</li>
                           <li>This project user can Book Their desire tour by booking procedure</li>
                           <li>Respoisive Design</li>
                   </ul>
                 </div>
-                <div className="relative p-6 flex-auto text-green-900">
-                  <h4 className="text-2xl">Tech Used</h4>
+                <div className="relative p-6 flex-auto text-buttonColor">
+                  <h4 className="text-2xl uppercase">Tech Used</h4>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-2">
                   <ul className="my-4 text-blueGray-500 text-lg leading-relaxed">
                            <li>HTML5</li>
@@ -194,21 +194,21 @@ const Projects = () => {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h3 className="text-3xl text-green-900 font-semibold">
+                  <h3 className="text-3xl text-buttonColor font-semibold uppercase">
                     Feature
                   </h3>
                  
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto text-green-900">
+                <div className="relative p-6 flex-auto text-buttonColor">
                   <ul className="mt-4 text-blueGray-500 text-lg leading-relaxed">
                           <li>Select your desire car and buy it online</li>
                           <li>Real-time complete website</li>
                           <li>Styled with react-bootstrap</li>
                   </ul>
                 </div>
-                <div className="relative p-6 flex-auto text-green-900">
-                  <h4 className="text-2xl">Tech Used</h4>
+                <div className="relative p-6 flex-auto text-buttonColor">
+                  <h4 className="text-2xl uppercase">Tech Used</h4>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-2">
                   <ul className="my-4 text-blueGray-500 text-lg leading-relaxed">
                            <li>HTML5</li>
@@ -252,21 +252,21 @@ const Projects = () => {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h3 className="text-3xl text-green-900 font-semibold">
+                  <h3 className="text-3xl text-buttonColor font-semibold uppercase">
                     Feature
                   </h3>
                  
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto text-green-900">
+                <div className="relative p-6 flex-auto text-buttonColor">
                   <ul className="mt-4 text-blueGray-500 text-lg leading-relaxed">
                           <li>Medi Care Hospital system is created for giving medical services to all users.</li>
                           <li>Real-time complete website</li>
                           <li>Styled with bootstrap</li>
                   </ul>
                 </div>
-                <div className="relative p-6 flex-auto text-green-900">
-                  <h4 className="text-2xl">Tech Used</h4>
+                <div className="relative p-6 flex-auto text-buttonColor">
+                  <h4 className="text-2xl uppercase">Tech Used</h4>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-2">
                   <ul className="my-4 text-blueGray-500 text-lg leading-relaxed">
                            <li>HTML5</li>
@@ -301,15 +301,15 @@ const Projects = () => {
     </div>
 
    
+    <div className="flex justify-center pt-10  ">
+               
+               <Link  to="/moreProjects" class=" py-2 px-10 rounded-full bg-buttonColor text-white tracking-widest  transition duration-200">View More Projects</Link>
 
+           </div>
 
 
   </div>
-  <div className="flex justify-center  ">
-               
-               <Link  to="/moreProjects" class="mt-8 mb-4 py-2 px-10 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200">View More Projects</Link>
-
-           </div>
+  
         </div>
     );
 };

@@ -10,7 +10,7 @@ const AllProjects = () =>  {
 
 
             <div class=" py-6">
-                <h1 class="mt-8 text-center text-5xl text-green-600 font-bold">Projects</h1>
+                <h1 class="mt-8 text-center text-5xl  font-bold text-textColor uppercase">Projects</h1>
 
                 {/* <!-- Box --> */}
                 <div class="md:flex md:justify-center md:space-x-8 md:px-14">
@@ -48,25 +48,25 @@ return(
                                 data-aos="zoom-in"
                                 data-aos-duration="1000"
                             />}
-                            <div class="mt-4 text-green-900 text-center">
-                                <h1 class="text-xl font-bold">{name}</h1>
+                            <div class="mt-4 text-buttonColor text-center">
+                                <h1 class="text-xl font-bold uppercase">{name}</h1>
                                 <p class="mt-4 text-gray-900">{description} </p>
                                 <div className="flex" >
 {liveSite &&
-                                    <a target="_blank" href={liveSite} class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+                                    <a target="_blank" href={liveSite} class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200 uppercase"
                                         data-aos="fade-right"
                                         data-aos-duration="1000"
                                     >Live Server</a>}
-                                { clientSite &&   <a target="_blank" href={clientSite} class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200"
+                                { clientSite &&   <a target="_blank" href={clientSite} class="mt-8 mb-4 py-0 mr-1 px-4  tracking-widest transition duration-200 uppercase"
                                         data-aos="fade-right"
                                         data-aos-duration="1000"
                                     >Client Site</a>}
-                                  {serverSite &&  <a target="_blank" href={serverSite} class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200"
+                                  {serverSite &&  <a target="_blank" href={serverSite} class="mt-8 mb-4 py-0  px-4  tracking-widest transition duration-200 uppercase"
                                         data-aos="fade-right"
                                         data-aos-duration="1000"
                                     >Server Site</a>}
                                 </div>
-                                <button onClick={() => setShowModal(true)} class="mt-8 mb-4 py-2 px-14 rounded-full bg-green-600 text-white tracking-widest hover:bg-green-500 transition duration-200"
+                                <button onClick={() => setShowModal(true)} class="mt-8 mb-4 py-2 px-14 rounded-full bg-buttonColor text-white tracking-widest  transition duration-200"
                                     
                                 >MORE</button>
                             </div>
@@ -82,13 +82,13 @@ return(
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                  <h3 className="text-3xl text-green-900 font-semibold">
+                  <h3 className="text-3xl text-buttonColor font-semibold uppercase">
                     Feature
                   </h3>
                  
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto text-green-900">
+                <div className="relative p-6 flex-auto text-buttonColor">
                 { features&&  <ul className="mt-4 text-blueGray-500 text-lg leading-relaxed">
                 {/* { features.one ?  <li>{features.one}</li>: null}
                          {features.two && <li>{features.two}</li>}
@@ -100,8 +100,8 @@ return(
                           
                   </ul>}
                 </div>
-                <div className="relative p-6 flex-auto text-green-900">
-                  <h4 className="text-2xl">Tech Used</h4>
+                <div className="relative p-6 flex-auto text-buttonColor">
+                  <h4 className="text-2xl uppercase">Tech Used</h4>
                   <div className="lg:grid lg:grid-cols-2 lg:gap-2">
                 {techUsed1&&  <ul className="my-4 text-blueGray-500 text-lg leading-relaxed">
                           {techUsed1.map((tech,index)=><li key={
