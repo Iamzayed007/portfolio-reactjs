@@ -16,6 +16,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 import AllProjects from './components/AllProjects/AllProjects';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
+import ReactTinyFab from './components/ui/ReactTinyFab/ReactTinyFab';
 // ..
 AOS.init();
 
@@ -47,6 +48,7 @@ function App() {
             <AllProjects />
           </Route>
         </Switch>
+        <ReactTinyFab></ReactTinyFab>
         <Footer logoTag={capitalizedPath}></Footer>
  
 
