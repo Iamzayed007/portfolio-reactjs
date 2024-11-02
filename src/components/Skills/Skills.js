@@ -1,188 +1,111 @@
 import React from 'react';
 import {SkillsData} from './SkillsData'
+import ImageContainer from '../ui/ImageContainer/ImageContainer';
+import Box from '../ui/Box/Box';
+import mypic from '../../assets/image/MyImage.png'
 const Skills = () => { 
  
     return (
-        <div id="skills" className="relative   z-50 lg:text-white top-44 max-w-full " >
-            {/* <h1 className="text-6xl text-center">Skills</h1> */}
-            {/* <img style={imgStyle} src={img} alt="" /> */}
- 
-      {/* Frontend */}
+      <div className='container mx-auto fontPlaywrite'>
+      <div className="grid grid-cols-2 gap-4 w-full">
+          <div className="bg-gray-300 w-50">
+              <div className="md:ml-8 mt-5 py-5">
 
-            <div class=" py-14 "
-            // data-aos="fade-right"
-            // data-aos-duration="1000"
-            >
-    <h1 class="mt-8 text-center text-6xl uppercase text-white font-bold">Skills</h1>
-    <h3 class="text-2xl tracking-widest mt-10 text-white  text-center font-bold ">Front End</h3>
+                <div className=''>
+                 <p className='text-2xl font-semibold'>.language<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.programmingLanguages.map(dt=>(<>
 
-   
-    <div class="md:flex md:justify-center md:space-x-4 md:px-2  ">
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
+              </div>
+                <div className='mt-8'>
+                 <p className='text-2xl font-semibold'>.frontend<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.frontend.map(dt=>(<>
 
-     
-      <div className="lg:grid lg:grid-cols-5 lg:gap-4 ">   
-     {
-         SkillsData.frontend.map((skill,index)=> <SingleSkill
-         key={index}
-         skill={skill}
-         ></SingleSkill>)
-     }  
-    </div>
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
+              </div>
+                <div className='mt-8'>
+                 <p className='text-2xl font-semibold'>.backend<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.backend.map(dt=>(<>
 
-    
-    </div>
-  </div>
-<div className="lg:grid lg:grid-cols-2 lg:gap-2">
-  
-{/* Backend */}
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
+              </div>
+                <div className='mt-8'>
+                 <p className='text-2xl font-semibold'>.databases<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.databases.map(dt=>(<>
 
-          <div class=" py-10"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          >
-              <h3 class="text-2xl tracking-widest text-center text-white font-bold">Back End</h3>
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
+              </div>
+                <div className='mt-8'>
+                 <p className='text-2xl font-semibold'>.mobile<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.mobile.map(dt=>(<>
 
-            
-              <div class="md:flex md:justify-center md:space-x-8 md:px-14">
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
+              </div>
+                <div className='mt-8'>
+                 <p className='text-2xl font-semibold'>.versionControl<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.versionControl.map(dt=>(<>
 
-              
-                <div className="lg:grid lg:grid-cols-4 lg:gap-4">   
-              {
-                  SkillsData.backend.map((skill,index)=> <SingleSkill
-                  key={index}
-                  skill={skill}
-                  ></SingleSkill>)
-              }  
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
+              </div>
+                <div className='mt-8'>
+                 <p className='text-2xl font-semibold'>.hosting<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.hostingPlatforms.map(dt=>(<>
+
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
+              </div>
+                <div className='my-8'>
+                 <p className='text-2xl font-semibold'>.misc<br /></p>
+                    <div className="grid grid-cols-3 gap-4 mt-4">
+                   {SkillsData && SkillsData.misc.map(dt=>(<>
+
+                    <Skill skill={dt}/>
+                   </>))}
+                    </div>
               </div>
 
-              
               </div>
-            </div>
-  {/* hostingPlatforms */}
-                        <div class=" py-10"
-                        data-aos="fade-right"
-                        data-aos-duration="1000"
-                        >
-                <h3 class="text-2xl tracking-widest  text-center text-white font-bold">Hosting Flatform</h3>
-
-                <div class="md:flex md:justify-center md:space-x-1 md:px-1">
-
-                  <div className="lg:grid lg:grid-cols-4 lg:gap-4"
-                  
-                  >   
-                {
-                    SkillsData.hostingPlatforms.map((skill,index)=> <SingleSkill
-                    key={index}
-                    skill={skill}
-                    ></SingleSkill>)
-                }  
-                </div>
-
-                
-                </div>
-              </div>
-</div>
-
-<div className="lg:grid lg:grid-cols-3 lg:gap-1">   
-
-
-  {/* programmingLanguages */}
-                  <div class=" py-10"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                  >
-          <h3 class="text-2xl tracking-widest  text-center text-white font-bold">Programming Language</h3>
-
-      
-          <div class="md:flex md:justify-center md:space-x-8 md:px-14">
-
-            
-            <div className="lg:grid lg:grid-cols-2 lg:gap-4">   
-          {
-              SkillsData.programmingLanguages.map((skill,index)=> <SingleSkill
-              key={index}
-              skill={skill}
-              ></SingleSkill>)
-          }  
           </div>
-
-          
+          <div className="bg-custom w-50 min-h-screen pb-28">
+              <div className='relative left-28 top-24 py-6 w-22rem h-30rem border-2 border-gray-600 bg-gray-400'>
+              <div className='ml-5 w-22rem'>       
+              <ImageContainer src={mypic} className="border-2 border-gray-600  bg-gray-600 pt-6"/>
+              </div>
+              </div>
+        
           </div>
-        </div>
-
-  {/* databases */}
-                      <div class=" py-10"
-                      data-aos="fade-down"
-                      data-aos-duration="1000"
-                      >
-              <h3 class="text-2xl tracking-widest  text-center text-white font-bold">Database</h3>
-
-
-              <div class="md:flex md:justify-center md:space-x-8 md:px-14">
-
-                
-                <div className="lg:grid lg:grid-cols-2 lg:gap-4">   
-              {
-                  SkillsData.databases.map((skill,index)=> <SingleSkill
-                  key={index}
-                  skill={skill}
-                  ></SingleSkill>)
-              }  
-              </div>
-
-              
-              </div>
-            </div>
-  {/* versionControl */}
-            <div class=" py-10"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            >
-    <h3 class="text-2xl tracking-widest text-center text-white font-bold">Version Control</h3>
-
-  
-    <div class="md:flex md:justify-center md:space-x-8 md:px-14">
-
-      <div className="lg:grid lg:grid-cols-1 lg:gap-4">   
-     {
-         SkillsData.versionControl.map((skill,index)=> <SingleSkill
-         key={index}
-         skill={skill}
-         ></SingleSkill>)
-     }  
-    </div>
-
-    
-    </div>
-  </div>
-  </div>   
-
-        </div>
+      </div>
+  </div >
     );
 };
 
-const SingleSkill=(props)=>{
+const Skill=(props)=>{
 const {skillName,imgSrc}=props.skill
     return(
-        <div>
-
-<div class=" mt-16 py-2 px-4  w-36 h-52 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
-        <div class="w-sm "
-     
-        >
-          <img class="w-36 h-32" src={imgSrc} alt="" 
-             data-aos="zoom-in"
-             data-aos-duration="1000"
-          />
-          <div class="mt-4 text-buttonColor text-center">
-            <h1 class="text-xl  font-bold"
-             data-aos="zoom-out"
-             data-aos-duration="1000"
-            >{skillName}</h1>
-          </div>
-        </div>
-      </div>
-      {/* "https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a17abde8d83650a582a28432/users-with-speech-bubbles-vector_53876-82250.jpg" */}
+        <div className='mt-3'>
+         <Box className='w-32 h-10 inline-block align-middle text-center text-gray-400'>
+          <span className='ml-3'>{skillName}</span>
+         </Box>
         </div>
     )
 }

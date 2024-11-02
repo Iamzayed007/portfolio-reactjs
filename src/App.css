@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+.fontPlaywrite{
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 *{
     /* font-family: 'Nunito Sans', sans-serif; */
 /* font-family: 'Playfair Display', serif; */
-font-family: 'Raleway', sans-serif;
+/* font-family: 'Raleway', sans-serif; */
 }
 

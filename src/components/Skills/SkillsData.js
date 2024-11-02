@@ -26,7 +26,37 @@ import L_TYPESCRIPT from "../../assets/image/skills/typescript.svg";
 export const SkillsData =  {
 
     frontend: [
-        {
+      {
+        link: "https://www.javascript.com/",
+        imgAltText: "JavaScript",
+        imgSrc: L_JAVASCRIPT,
+        skillName: "JavaScript",
+      },  
+      {
+        link: "https://www.javascript.com/",
+        imgAltText: "JavaScript",
+        imgSrc: L_JAVASCRIPT,
+        skillName: "TypeScript",
+      },  
+      {
+        link: "https://reactjs.org/",
+        imgAltText: "React JS",
+        imgSrc: L_REACT,
+        skillName: "React JS",
+      },
+      {
+        link: "https://react-bootstrap.github.io/",
+        imgAltText: "NEXT JS",
+        imgSrc: L_REDUX,
+        skillName: "Next JS",
+      },
+      {
+        link: "https://react-bootstrap.github.io/",
+        imgAltText: "Redux",
+        imgSrc: L_REDUX,
+        skillName: "Redux",
+      },
+      {
           link: "https://en.wikipedia.org/wiki/HTML5",
           imgAltText: "HTML 5",
           imgSrc: L_HTML5,
@@ -38,12 +68,7 @@ export const SkillsData =  {
           imgSrc: L_CSS3,
           skillName: "CSS3",
         },
-        {
-          link: "https://www.javascript.com/",
-          imgAltText: "JavaScript",
-          imgSrc: L_JAVASCRIPT,
-          skillName: "JavaScript",
-        },
+ 
         {
           link: "https://getbootstrap.com/",
           imgAltText: "Bootstrap",
@@ -51,41 +76,17 @@ export const SkillsData =  {
           skillName: "Bootstrap",
         },
         {
-          link: "https://reactjs.org/",
-          imgAltText: "React JS",
-          imgSrc: L_REACT,
-          skillName: "React JS",
-        },
-        {
-          link: "https://reacttraining.com/react-router/",
-          imgAltText: "React Router",
-          imgSrc: L_REACT_ROUTER,
-          skillName: "React Router",
-        },
-        {
           link: "https://tailwindcss.com/",
           imgAltText: "Tailwind CSS",
           imgSrc: tailwind,
-          skillName: "Tailwind CSS",
+          skillName: "TailwindCSS",
         },
         {
           link: "https://material-ui.com/",
           imgAltText: "Material-UI",
           imgSrc: L_MATERIALUI,
           skillName: "Material-UI",
-        },
-        {
-          link: "https://react-bootstrap.github.io/",
-          imgAltText: "React Bootstrap",
-          imgSrc: L_REACT_BOOTSTRAP,
-          skillName: "React Bootstrap",
-        },
-        {
-          link: "https://react-bootstrap.github.io/",
-          imgAltText: "REDUX",
-          imgSrc: L_REDUX,
-          skillName: "REDUX",
-        },
+        }
        
         
       ],
@@ -105,9 +106,9 @@ export const SkillsData =  {
         },
         {
           link: "https://laravel.com/",
-          imgAltText: "Laravel",
+          imgAltText: "REST API",
           imgSrc: L_Laravel,
-          skillName: "Laravel",
+          skillName: "REST API",
         },
        
       ],
@@ -136,6 +137,12 @@ export const SkillsData =  {
           imgSrc: netlify,
           skillName: "Netlify",
         },
+        {
+          link: "https://pages.github.com/",
+          imgAltText: "VERCEL",
+          imgSrc: netlify,
+          skillName: "Vercel",
+        },
       ],
       programmingLanguages: [
         {
@@ -151,14 +158,20 @@ export const SkillsData =  {
           imgSrc: L_TYPESCRIPT,
           skillName: "TypeScript",
         },
+        {
+          link: "https://www.typescriptlang.org/",
+          imgAltText: "Python",
+          imgSrc: L_TYPESCRIPT,
+          skillName: "Phython",
+        },
         
       ],
       databases: [
         {
           link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-          imgAltText: "MS-SQL",
+          imgAltText: "MY-SQL",
           imgSrc: L_MYSQL,
-          skillName: "My SQL",
+          skillName: "MYSQL",
         },
         {
           link: "https://www.mongodb.com/",
@@ -166,13 +179,42 @@ export const SkillsData =  {
           imgSrc: L_MONGODB,
           skillName: "MongoDB",
         },
+        {
+          link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+          imgAltText: "MS-SQL",
+          imgSrc: L_MYSQL,
+          skillName: "MSSQL",
+        },
+   
       ],
       versionControl: [
         {
           link: "https://git-scm.com/",
           imgAltText: "GIT",
           imgSrc: L_GIT,
-          skillName: "GIT",
+          skillName: "Git",
+        },
+      ],
+      mobile:[
+        {
+          link: "https://git-scm.com/",
+          imgAltText: "REACT NATIVE",
+          imgSrc: "",
+          skillName: "React Native",
+        },
+      ],
+      misc:[
+        {
+          link: "",
+          imgAltText: "Dev Tools",
+          imgSrc: "",
+          skillName: "Dev Tools",
+        },
+        {
+          link: "",
+          imgAltText: "Postman",
+          imgSrc: "",
+          skillName: "Postman",
         },
       ],
 };
