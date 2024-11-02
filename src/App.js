@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="bg-custom" >
       <Router>
-        <Header></Header>
+        {/* <Header></Header> */}
 
         {/* <BgParticles/> */}
         <Switch>
@@ -34,7 +34,7 @@ function App() {
             <AllProjects />
           </Route>
         </Switch>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </Router>
 
     </div>

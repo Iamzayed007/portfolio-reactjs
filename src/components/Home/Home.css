@@ -15,3 +15,11 @@
     opacity: 1 !important;
 
 }
+.clipPath{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.image{
+    position: relative;
+    left: 9rem;
+    top: -22rem;
+}
